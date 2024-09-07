@@ -13,8 +13,12 @@ Do lado direito do sinal de igual deve aparecer o valor referente a conta do que
 """
 
 # Troque os valores None para receber dados de entrada do usuário.
-a = None
-b = None
+a = int(input("Digite um número: "))
+b = int(input("Digite outro número: "))
 
 # Exemplo da primeira saída que deve ser impressa
 print("a = ", a)
+print("b =", b)
+print("a + b =", a + b)
+print("a**b =", a**b)
+print("a - b =", a - b)

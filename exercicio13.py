@@ -7,3 +7,15 @@ Escreva um programa que receba entrada um número inteiro e transforme o mesmo �
 
 Dica: Veja que nessa situação é melhor tratar o número como uma str pois é mais fácil de inverter o número dessa maneira. 
 """
+
+# Solicita ao usuário que insira um número inteiro
+numero = input("Digite um número inteiro: ")
+
+# Inverte a string do número
+numero_invertido = numero[::-1]
+
+# Concatena o número original com sua versão invertida para criar o palíndromo
+palindromo = numero + numero_invertido
+
+# Imprime o resultado
+print(f"O palíndromo formado é: {palindromo}")

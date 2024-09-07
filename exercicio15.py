@@ -21,3 +21,20 @@ Escreva um código parar desencriptar a mensagem definida na variável mensagem_
 mensagem_encriptada = "Otleár cAelpitcaed!a .R eMsaosl vaig omruad acro mn oessssae  cnroivpot omgértaofdioa ,n iancgrueédmi tvoa iq uceo nnsoesgsuai rú llteirm an omsesnassa gmeemn sfaogie nisn."
 
 # Escreva seu código abaixo
+
+# Calcula o comprimento total da mensagem
+comprimento_total = len(mensagem_encriptada)
+
+# Calcula o ponto médio da mensagem
+meio = comprimento_total // 2
+
+# Separa a mensagem em duas partes
+parte_par = mensagem_encriptada[0::2]
+parte_impar = mensagem_encriptada[1::2]
+
+# Combina as partes par e ímpar para formar a mensagem original
+mensagem_desencriptada = parte_par[:meio] + parte_impar[:meio]
+
+# Imprime a mensagem desencriptada
+print("Mensagem desencriptada:")
+print(mensagem_desencriptada)

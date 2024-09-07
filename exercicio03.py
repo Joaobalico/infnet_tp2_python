@@ -3,3 +3,14 @@
 """
 
 # Escreva seu código aqui
+# guardando input do usuario
+minutos_totais = int(input("Digite a quantidade de minutos: "))
+
+# Calcula o número de horas usando divisão inteira
+horas = minutos_totais // 60
+
+# Calcula o número de minutos restantes
+minutos = minutos_totais % 60
+
+# Resultado no formato hora:minuto
+print(f"{horas}h{minutos}m")
